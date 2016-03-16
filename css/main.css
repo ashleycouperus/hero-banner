@@ -7,7 +7,6 @@ h2 {
   font-size: 4rem;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.5);
-  position: absolute;
   bottom: 8.5rem;
   left: 0;
   width: 100%;
@@ -18,20 +17,21 @@ h2 {
   display: block;
 }
 
-span {
+p {
   font-size: 2rem;
   font-style: italic;
-  padding: 12rem 1rem;
-  position: absolute;
-}
-
-header {
-  position: relative;
 }
 
 .banner {
   overflow: hidden;
   border: 1px solid #ccc;
+  position: relative;
+}
+
+.banner-content {
+  padding: 0 1rem;
+  position: absolute;
+  bottom: 1rem;
 }
 
 *, *::before, *::after {
